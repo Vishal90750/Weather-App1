@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Application</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  
+  <script src="script.js"></script>
+
+  <div class="container">
+    <h1>Weather Application</h1>
+    <div class="weather">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button onclick="getWeather()">Get Weather</button>
+      <div id="result"></div>
+    </div>
+    <div id="additional-info">
+      <div id="temperature-info">
+        <h2>Temperature</h2>
+        <p id="temperature"></p>
+      </div>
+      <div id="humidity-info">
+        <h2>Humidity</h2>
+        <p id="humidity"></p>
+      </div>
+      <div id="wind-info">
+        <h2>Wind</h2>
+        <p id="wind"></p>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>
