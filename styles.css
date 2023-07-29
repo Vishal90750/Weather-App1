@@ -1,8 +1,10 @@
 body {
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   background-image: url("https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/PHOTO-dark%20and%20stormy%20cloudscape-istock-1125x534-Landscape.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  width: 100vw;
+  height: 100vh;
   opacity: 0.8;
   /* z-index: -1; */
   font-family: Arial, sans-serif;
@@ -31,7 +33,7 @@ input[type="text"] {
   width: 250px;
   border: none;
   border-radius: 4px;
-  background-color: #fff;
+  /* background-color: #fff; */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -75,3 +77,61 @@ button {
   color:red;
   font-size: 16px;
 }
+
+@media only screen and (min-width: 400px) and (max-width: 900px) {
+  body {
+    font-size: 24px;
+    background-size: cover;
+
+  }
+
+  main {
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 850px) {
+  body {
+    font-size: 24px;
+    background-size: cover;
+    margin-top: 50%;
+
+  }
+    #additional-info div {
+      width: 15%;
+      background-color: #fff;
+      padding: 35px;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: center;
+    }
+  main {
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1500px) {
+  body {
+    font-size: 24px;
+    background-size: cover;
+    margin-top: 50%;
+
+  }
+
+  #additional-info div {
+    width: 100%;
+    /* background-color: #fff; */
+    padding: 100px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    padding: 15px;
+  }
+}
+
+;
